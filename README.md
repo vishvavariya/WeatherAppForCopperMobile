@@ -1,16 +1,7 @@
 # weather_app_coppermobile
 
-A new Flutter project.
+This app is made as a take-home assignment for Copper Mobile.
 
-## Getting Started
+I have used Redux in the app. Also, I have used Geolocator to get the weather in the current location.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Added a video for the output as well! Please download to check the output or else run the the folder on flutter.
