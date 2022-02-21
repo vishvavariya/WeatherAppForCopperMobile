@@ -1,3 +1,5 @@
+//I will use the values in the fields to update the state when this action is called.
+
 class FetchWeatherAction {
   final String _location;
   final double _weather;

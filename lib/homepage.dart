@@ -15,6 +15,8 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: const Text("Weather App for Copper Mobile"),
       ),
+
+      //display weather and the location
       body: Center(
         child: Container(
           height: 400.0,
@@ -32,7 +34,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   );
                 },
               ),
-
+//button to press to get the current location
               StoreConnector<AppState, FetchWeather>(
                 converter: (store) => () => store.dispatch(fetchWeather),
                 builder: (_, fetchWeatherCallback) {
@@ -60,5 +62,4 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
-
 typedef FetchWeather = void Function();
